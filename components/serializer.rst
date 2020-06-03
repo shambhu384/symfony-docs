@@ -845,7 +845,7 @@ Skipping ``null`` Values
 
 By default, the Serializer will preserve properties containing a ``null`` value.
 You can change this behavior by setting the ``AbstractObjectNormalizer::SKIP_NULL_VALUES`` context option
-to ``true``::
+to ``true`` ::
 
     $dummy = new class {
         public $foo;
